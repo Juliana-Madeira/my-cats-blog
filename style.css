@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    background-color: #333;
+    color: #222;
+}
+
+h3, img, p{
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: #fafafa;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 60px;
+    padding-bottom: 20px;
+}
+
+.container.show-nav {
+    transform: rotate(-20deg);
+}
+
+.container.show-nav + nav li {
+    transform: translateX(0);
+    transition-delay: 0.3s;
+}
+
+.circle-container {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+}
+
+.circle {
+    background-color: #ff7979;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+    position: relative
+}
+
+.circle button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    font-size: 26px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.circle button:focus {
+    outline: none
+}
+
+.circle #open {
+    left: 63%;
+    /* top: 48% */
+}
+
+.circle #close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul li {
+    margin: 40px 0;
+    color: #FFF;
+    text-transform: uppercase;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in;
+}
+
+nav ul li + li {       /*as próximas li após a primeira*/
+    margin-left: 15px;
+    transform: translateX(-150%);
+}
+
+nav ul li + li + li{       /*as proximas li depois da primeira e assim por diante*/
+    margin-left: 30px;
+    transform: translateX(-200%);
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.content {
+    margin: 50px auto 20px auto;
+    max-width: 1000px;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.container span {
+    color: #555;
+    font-style: italic;
+}
+
+.content p {
+    color: #333;
+    line-height: 1.5;
+}
