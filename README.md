@@ -1,5 +1,5 @@
 # Project My Cats Blog
-O My Cats Blog é um projeto de uma página Home (index), com efeito de rotação e slide no menu (deslizando). 
+O My Cats Blog é um projeto de uma página Home (index), com efeito de rotação e slide no menu (deslizando), para estudo de Graduação em Análise e Desenvolvimento de Sistemas
 
 Funções e Botões (icons), Open e Close com rotação de Navegação (utilizando CSS e Javascript).
 
@@ -9,7 +9,7 @@ O projeto está responsivo.
 Para ver a página: [clique aqui](https://juliana-madeira.github.io/my-cats-blog/)
 
 ### Techs
-Utilizadas as tecnologias HTML, CSS e Javascript para estudo de Graduação em Análise e Desenvolvimento de Sistemas. 
+Utilizadas as tecnologias HTML, CSS e Javascript. 
 
 Páginas estruturadas com HTML,
 Estilizadas em CSS,
