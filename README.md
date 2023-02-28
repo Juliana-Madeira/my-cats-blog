@@ -1,5 +1,5 @@
 # Project My Cats Blog
-O My Cats Blog é um projeto de uma página Home (index), com efeito de rotação e split no menu. 
+O My Cats Blog é um projeto de uma página Home (index), com efeito de rotação e slide no menu (deslizando). 
 Open e Close com rotação de Navigação (CSS e Javascript).
 
 ### Site
