@@ -3,6 +3,8 @@ O My Cats Blog é um projeto de uma página Home (index), com efeito de rotaçã
 
 Funções e Botões (icons), Open e Close com rotação de Navegação (utilizando CSS e Javascript).
 
+O projeto está responsivo. 
+
 ### Site
 Para ver a página: [clique aqui](https://juliana-madeira.github.io/my-cats-blog/)
 
